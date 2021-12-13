@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>COMP2132 Final Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="jquery-3.6.0.min.js" defer></script>
+        <script src="Javascript/finalProject.js" defer="defer"></script>
+        <link rel="stylesheet" href="Css/finalProject.css">
+    </head>
+    <body>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        </style>
+
+        <h1 id="header">Final Project: Dice Game!</h1>
+
+        
+        <div class="players">
+            <h2 id="p1">Player 1</h2>
+
+            <h2 id="p2">Computer</h2>
+        </div>
+
+        <div id="dice_pics">
+            <img id="p1d1" src="Images/normalDicePic.png" alt="Picture of 6 sided dice">
+            <img id="p1d2" src="Images/normalDicePic.png" alt="Picture of 6 sided dice">
+            <img id="p2d1" src="Images/normalDicePic.png" alt="Picture of 6 sided dice">
+            <img id="p2d2" src="Images/normalDicePic.png" alt="Picture of 6 sided dice">
+        </div>
+
+        <button id="rollDice">Roll Dice!</button>
+        <button id="newDice">New Game!</button>
+
+        <div id="rollMessages">
+            <strong><p id="playerRollMsg"></p></strong>
+            <strong><p id="computerRollMsg"></p></strong>
+        </div>
+
+        <h2 id="scoreTitle">Accumulated Scores</h2>
+
+        <div id="playersHeader2">
+            <h2 id="p1Score">Player 1</h2>
+
+            <h2 id="p2Score">Computer</h2>
+        </div>
+
+        <div id="accumulatedScores">
+            <strong><p id="playerScore"></p></strong>
+            <strong><p id="computerScore"></p></strong>
+        </div>
+
+        <div id="rulesPage">
+            <h2>Game Rules</h2>
+            <strong><p>The user and the computer each 
+                roll a pair of dice 3 times. After the third roll of the dice the player with highest score wins. 
+                The scoring for the game works as follows:</p></strong> 
+            <strong><p>- If any of the players two dice comes up as a 1 then the score for that round for the player 
+                is 0. eg: if the player rolls a 6 and 1, they get a score of 0</p></strong> 
+            <strong><p>- If the player rolls a pair of the same numbers then the players score is the total of the 
+                two dice times 2. eg: if he player rolls 5 and 5, they get a score of (5+5)*2=20</p></strong> 
+            <strong><p>- If the player rolls any other combination of dice other than the ones mentioned above 
+                then the players score is the total value of the two dice, eg: player rolls a 3 and 2, player 
+                gets a score of 3+2=5</p></strong>
+                <button id="exitButton">X</button>
+        </div>
+
+        <button id="hoverButton">Game Rules?</button>
+    </body>

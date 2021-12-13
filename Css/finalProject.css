@@ -1,0 +1,161 @@
+h1#header {
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5%;
+    font-family: "Pacifico";
+}
+
+h2#p1 {
+    display: inline;
+    width: 30%;
+    border-style: solid;
+    text-align: center;
+    border-width: 8px;
+    border-radius: 5%;
+    background-color: darkcyan;
+    margin-left: 23.5%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+h2#p2 {
+    display: inline;
+    width: 30%;
+    border-style: solid;
+    text-align: center;
+    border-width: 8px;
+    border-radius: 5%;
+    background-color: darkcyan;
+    margin-left: 39%;
+}
+
+img {
+    height: 330px;
+    width: 20%;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 5%;
+    margin-left: 2%;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+img#p1d1 {
+    margin-left: 5%;
+}
+
+button {
+    width: 10%;
+    background-color: darkcyan;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 5%;
+}
+
+button#exitButton {
+    width: 50px;
+    height: 25px;
+    background-color: darkcyan;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 97.5%;
+}
+
+h2 {
+    width: 70%;
+    font-family: "Source Code Pro";
+    border-style: solid;
+    text-align: center;
+    border-width: 8px;
+    border-radius: 5%;
+    background-color: darkcyan;
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
+
+p {
+    width: 70%;
+    margin-left: 15%;
+}
+
+button#hoverButton {
+    position: absolute;
+    background-color: cornflowerblue;
+    height: 50px;
+    border-radius: 30%;
+    top: 600px;
+    left: 45%;
+}
+
+button#rollDice {
+    margin-left: 40%;
+}
+
+div#rulesPage {
+    position: absolute;
+    background-color: coral;
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10%;
+    height: 50%;
+    width: 90%;
+    margin-left: 5%;
+    top: 250px;
+    z-index: 3;
+    display: none;
+}
+
+h2#p1Score {
+    display: inline;
+    margin-left: 30%;
+}
+
+h2#p2Score {
+    display: inline;
+    margin-left: 30%;
+}
+
+body {
+    min-height: 100%;
+    background-image: linear-gradient(coral, skyblue, darkcyan, coral)
+}
+
+p#playerRollMsg {
+    position: absolute;
+    font-family: "Source Code Pro";
+    top: 600px;
+    left: 8%;
+}
+
+p#computerRollMsg {
+    position: absolute;
+    font-family: "Source Code Pro";
+    left: 50%;
+    top: 600px;
+}
+
+p#playerScore {
+    font-size: 1000%;
+    font-family: "Pacifico";
+    position: absolute;
+    left: 15%;
+    top: 700px;
+}
+
+p#computerScore {
+    font-size: 1000%;
+    font-family: "Pacifico";
+    position: absolute;
+    left: 52%;
+    top: 700px;
+}
